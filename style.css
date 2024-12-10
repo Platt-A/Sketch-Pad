@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    width: 960px; /* Set the container width */
+    margin: 0 auto;
+}
+
+.grid-item {
+    width: 60px; /* Set width for each square */
+    height: 60px; /* Set height for each square */
+    background-color: lightgray;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+    /* Add hover effect */
+    .grid-item:hover {
+        background-color: #333; /* Darken the color when hovered */
+    }
